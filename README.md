@@ -1,7 +1,7 @@
 ## How to build and run
 
-1. Make a copy of the file `.env.example` and rename it to `.env`;
-2. FIll in this file with your preferences and your TMBD API KEY.
+1. Make a copy of the file `backend/.env.example` and rename it to `backend/.env`;
+2. Fill in this file with your preferences and your TMBD API KEY.
 3. To start the server, run the commands below:
 ```sh
 cd backend && npm install && npm run dev
