@@ -1,0 +1,37 @@
+{
+  "name": "viaplay",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:verbose": "jest --verbose",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage --colors",
+    "dev": "nodemon"
+  },
+  "keywords": [],
+  "author": "Cleber Gasparoto <chgasparoto@gmail.com> (https://github.com/chgasparoto)",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "24.5.0",
+    "jest-extended": "0.11.1",
+    "nodemon": "1.18.10",
+    "standard": "12.0.1"
+  },
+  "dependencies": {
+    "axios": "0.18.0",
+    "body-parser": "1.18.3",
+    "cors": "2.8.5",
+    "dotenv": "7.0.0",
+    "express": "4.16.4",
+    "lodash": "4.17.11",
+    "memory-cache": "0.2.0",
+    "morgan": "1.9.1"
+  },
+  "jest": {
+    "setupFilesAfterEnv": [
+      "jest-extended"
+    ]
+  }
+}
