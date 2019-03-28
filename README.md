@@ -9,7 +9,7 @@ cd backend && npm install && npm run dev
 
 4. To start the frontend, run the following commands:
 ```sh
-cd frontend && yarn && yarn start
+cd client && yarn && yarn start
 ```
 5. To run the tests:
 ```sh
